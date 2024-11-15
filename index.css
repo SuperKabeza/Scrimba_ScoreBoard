@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'CursedTimer'; /* Nombre que usaremos en CSS */
+    src: url("./CursedTimerUlil-Aznm.ttf"); /* Ruta y formato de la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    font-family: CursedTimer;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 4px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: fit-content;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.box {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.visualizer {
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+h1 {
+    margin: 10px 20px;
+    line-height: 1;
+}
+
+h3 {
+    margin: 10px auto;
+}
+.score {
+    color:white;
+}
+.container-buttons {
+    display: flex;
+    max-width: fit-content;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-score {
+    background-color: darkorchid;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 2px;
+    color: white;
+    line-height: 1.75;
+    
+}
+.btn-score:hover {
+    background-color: white;
+    color: darkorchid; 
+}
+.empate {
+    color: yellow
+}
+.ganando {
+    color: greenyellow;
+}
+.perdiendo {
+    color: red
+}
+
